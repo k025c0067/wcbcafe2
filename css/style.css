@@ -163,74 +163,75 @@ img {
         height: 400px;
         margin-bottom: 6rem;
     }
-}
 
-/*HOME*/
-.cover-home {
-    background-image: url(../images/cover-home-l.webp);
-}
-.about {
-    margin: 4rem auto 0;
-}
 
-/*NEWS*/
-.cover-news {
-    background-image: url(../images/cover-news-l.webp);
-}
-.news-contents {
-    display: flex;
-    justify-content: space-between;
-}
-.post {
-    width: 60%;
-    order: 2;
-}
-.sidebar {
-    width: 22%;
-    order: 3;
-}
-.ad {
-    order: 1;
-}
-.sidebar .heading-medium {
-    line-height: 1;
-    margin-bottom: 1rem;
-}
-/*フッター*/
-.page-footer {
-    background-image: url(../images/footer-l.webp);
-    padding-top: 12rem;
-}
-.info th {
-    padding-left: 2.5rem;
-}
+    /*HOME*/
+    .cover-home {
+        background-image: url(../images/cover-home-l.webp);
+    }
+    .about {
+        margin: 4rem auto 0;
+    }
 
-/*ヘッダーカバー画像
----------------------------------*/
-.cover{
-    background-size: cover;
-    background-position: center bottom;
-    height: 800px;
-}
-.sub-cover {
-    background-size: cover;
-    background-position: center bottom;
-    height: 528px;
-    margin-bottom: 4rem;
-}
+    /*NEWS*/
+    .cover-news {
+        background-image: url(../images/cover-news-l.webp);
+    }
+    .news-contents {
+        display: flex;
+        justify-content: space-between;
+    }
+    .post {
+        width: 60%;
+        order: 2;
+    }
+    .sidebar {
+        width: 22%;
+        order: 3;
+    }
+    .ad {
+        order: 1;
+    }
+    .sidebar .heading-medium {
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
+    /*フッター*/
+    .page-footer {
+        background-image: url(../images/footer-l.webp);
+        padding-top: 12rem;
+    }
+    .info th {
+        padding-left: 2.5rem;
+    }
 
-/*HOME
---------------------------*/
-.cover-home {
-    background-image: url(../images/cover-home-s.webp);
-}
-.about {
-    max-width: 736px;
-    padding: 0 1.5rem;
-    margin: 3rem auto 4rem;
-}
-.about p {
-    margin-bottom: 3rem;
+    /*ヘッダーカバー画像
+    ---------------------------------*/
+    .cover{
+        background-size: cover;
+        background-position: center bottom;
+        height: 800px;
+    }
+    .sub-cover {
+        background-size: cover;
+        background-position: center bottom;
+        height: 528px;
+        margin-bottom: 4rem;
+    }
+
+    /*HOME
+    --------------------------*/
+    .cover-home {
+        background-image: url(../images/cover-home-s.webp);
+    }
+    .about {
+        max-width: 736px;
+        padding: 0 1.5rem;
+        margin: 3rem auto 4rem;
+    }
+    .about p {
+        margin-bottom: 3rem;
+    }
 }
 
 /*NEWS
