@@ -145,6 +145,9 @@ img {
     .heading-large {
         font-size: 4rem;
     }
+    .post-title {
+        font-size: 2rem;
+    }
     /*ヘッダー*/
     .page-header {
         display: flex;
@@ -153,6 +156,12 @@ img {
     }
     .main-nav {
         font-size: 2rem;
+    }
+    
+    /*ヘッダーカバー画像*/
+    .sub-cover {
+        height: 400px;
+        margin-bottom: 6rem;
     }
 }
 
@@ -164,6 +173,24 @@ img {
     margin: 4rem auto 0;
 }
 
+/*NEWS*/
+.cover-news {
+    background-image: url(../images/cover-news-l.webp);
+}
+.news-contents {
+    display: flex;
+    justify-content: space-between;
+}
+.post {
+    width: 70%;
+}
+.sidebar {
+    width: 22%;
+}
+.sidebar .heading-medium {
+    line-height: 1;
+    margin-bottom: 1rem;
+}
 /*フッター*/
 .page-footer {
     background-image: url(../images/footer-l.webp);
